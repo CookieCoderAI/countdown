@@ -14,7 +14,7 @@ function displayTimer(days, hours, minutes, seconds) {
 
  function timerFunction(){
   const currentDate = new Date().getTime();
-  const countdownDate = new Date(2021, 11, 27, 13, 30, 0, 0).getTime();
+  const countdownDate = new Date(2022, 1, 12, 20, 20, 0, 0).getTime();
   const distance = new Date(countdownDate - currentDate).getTime();
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
